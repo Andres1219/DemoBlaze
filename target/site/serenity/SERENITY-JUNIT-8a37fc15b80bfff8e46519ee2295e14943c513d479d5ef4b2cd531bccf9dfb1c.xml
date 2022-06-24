@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="iniciar sesion en la aplicacion  DemoBlaze" skipped="0" tests="2" time="22.96" timestamp="2022-06-24 06:23:55"><testcase name="Login exitoso"/><testcase name="Agregar al carrito"><error message="unexpected alert open: {Alert text : Product added.}&#10;  (Session info: chrome=103.0.5060.53): Product added.&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TCTLI5C', ip: '192.168.20.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Carlos\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 4ae06c39076fb07bb59022f5df0a35ab&#10;*** Element info: {Using=xpath, value=//a[@id=&quot;login2&quot;]}" type="org.openqa.selenium.UnhandledAlertException">unexpected alert open: {Alert text : Product added.}
+  (Session info: chrome=103.0.5060.53): Product added.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TCTLI5C', ip: '192.168.20.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Carlos\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ae06c39076fb07bb59022f5df0a35ab
+*** Element info: {Using=xpath, value=//a[@id="login2"]}</error><system-err>unexpected alert open: {Alert text : Product added.}
+  (Session info: chrome=103.0.5060.53): Product added.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TCTLI5C', ip: '192.168.20.36', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\Carlos\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59312}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4ae06c39076fb07bb59022f5df0a35ab
+*** Element info: {Using=xpath, value=//a[@id="login2"]}&#13;
+co.com.tcs.retotuya.tasks.LogIn.performAs(LogIn.java:18)&#13;
+co.com.tcs.retotuya.stepdefinitions.InicioSesionStepDefinitions.ingresoParaVerificarCarrito(InicioSesionStepDefinitions.java:59)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)&#13;
+worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)&#13;
+</system-err></testcase></testsuite>
